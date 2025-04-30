@@ -197,7 +197,7 @@
         <dep.gib.version>4.5.4</dep.gib.version>
         <dep.google.http.client.version>1.45.3</dep.google.http.client.version>
         <dep.httpcore5.version>5.3.2</dep.httpcore5.version>
-        <dep.iceberg.version>1.7.1</dep.iceberg.version>
+        <dep.iceberg.version>1.9.0</dep.iceberg.version>
         <dep.jna.version>5.16.0</dep.jna.version>
         <dep.joda.version>2.13.0</dep.joda.version>
         <dep.jsonwebtoken.version>0.12.6</dep.jsonwebtoken.version>
@@ -1932,7 +1932,7 @@
             <dependency>
                 <groupId>org.apache.httpcomponents.client5</groupId>
                 <artifactId>httpclient5</artifactId>
-                <version>5.4.1</version>
+                <version>5.4.3</version>
             </dependency>
 
             <dependency>
@@ -2589,7 +2589,7 @@
                                     <bannedImport>com.google.api.client.util.Preconditions.*</bannedImport>
                                 </bannedImports>
                             </RestrictImports>
-                            <requireProfileIdsExist />
+                            <requireProfileIdsExist/>
                             <requirePropertyDiverges>
                                 <property>project.description</property>
                             </requirePropertyDiverges>
