@@ -189,7 +189,7 @@
         <dep.cassandra.version>4.17.0</dep.cassandra.version>
         <dep.confluent.version>7.7.1</dep.confluent.version>
         <dep.docker.images.version>108</dep.docker.images.version>
-        <dep.drift.version>1.22</dep.drift.version>
+        <dep.drift.version>1.23</dep.drift.version>
         <dep.flyway.version>11.2.0</dep.flyway.version>
         <dep.frontend-maven-plugin.version>1.15.1</dep.frontend-maven-plugin.version>
         <dep.frontend-node.version>v22.11.0</dep.frontend-node.version>
@@ -2589,7 +2589,7 @@
                                     <bannedImport>com.google.api.client.util.Preconditions.*</bannedImport>
                                 </bannedImports>
                             </RestrictImports>
-                            <requireProfileIdsExist />
+                            <requireProfileIdsExist/>
                             <requirePropertyDiverges>
                                 <property>project.description</property>
                             </requirePropertyDiverges>
