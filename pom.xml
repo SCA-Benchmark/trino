@@ -680,7 +680,7 @@
             <dependency>
                 <groupId>io.airlift</groupId>
                 <artifactId>aircompressor-v3</artifactId>
-                <version>3.2</version>
+                <version>3.4</version>
             </dependency>
 
             <dependency>
@@ -2589,7 +2589,7 @@
                                     <bannedImport>com.google.api.client.util.Preconditions.*</bannedImport>
                                 </bannedImports>
                             </RestrictImports>
-                            <requireProfileIdsExist />
+                            <requireProfileIdsExist/>
                             <requirePropertyDiverges>
                                 <property>project.description</property>
                             </requirePropertyDiverges>
